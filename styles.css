@@ -47,50 +47,50 @@ table {
 	border-spacing: 0;
 }
 
-#main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-}
-
 @font-face {
   font-family: Norse-Bold;
   src: url(./fonts/Norse-Bold.otf);
 }
 
-#sidebar {
-  flex: 1;
-  position: relative;
-  height: 100vh;
-  width: 45%;
+body {
+  background-color: black;
+}
+
+.content {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
-.leaves-img {
+.left, .right {
+  height: 100%;
+  width: 22vw;
+}
+
+.right {
+  width: 35vw;
+  background-color: aliceblue;
+}
+
+.left {
+  position: relative;
+}
+
+.leaves {
+  position: absolute;
+  height: inherit;
   width: inherit;
+  z-index: -1;
 }
 
 .title {
-  position: absolute;
-  top: 40vh;
-  width: inherit;
+  position: fixed;
   background-color: rgba(0, 0, 0, .6);
-  display: flex;
-  justify-content: center;
-}
-
-.title-text {
   color: white;
-  font-size: 100px;
-  font-family: Norse-Bold, 'Times New Roman';
-}
-
-#content {
-  background-color: white;
-  height: 60vh;
-  width: 50vh;
+  font-size: 85px;
+  font-family: Norse-Bold, sans-serif;
+  text-align: center;
+  width: inherit;
+  top: 35%;
 }
