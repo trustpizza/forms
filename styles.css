@@ -91,20 +91,29 @@ body, html {
   background-color: #f7f8fa;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
 }
 
-.right > * {
-  height: 10px;
-  width: 10px;
-  border: 1px solid black;
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
-
 .call-to-action {
-  width: 80%;
+  width: 60%;
+  margin-top: 100px;
+  width: 425px;
 }
 
 .form-div {
   width: 100%;
+}
+
+.form-div > p {
+  font-size: 1.5em;
 }
 
 .btn {
