@@ -2,10 +2,36 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+}
+
+@font-face {
+  font-family: Norse-Bold;
+  src: url(./fonts/Norse-Bold.otf);
 }
 
 #sidebar {
+  position: relative;
+  height: 98vh;
+  width: 45vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leaves-img {
   height: 100vh;
-  width: 30vw;
+  width: inherit;
+}
+
+.title {
+  position: absolute;
+  top: 40vh;
+  color: white;
+  font-size: 72px;
+  background-color: rgba(0, 0, 0, .6);
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  font-family: Norse-Bold, 'Times New Roman';
 }
