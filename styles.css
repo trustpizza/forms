@@ -92,7 +92,6 @@ body, html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 15px;
 }
 
 p {
@@ -106,19 +105,36 @@ p {
   width: 60%;
   margin-top: 100px;
   width: 425px;
+  padding-left: 15px;
 }
 
 .form-div {
   width: 100%;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 15%) 0px 3px 3px 0px;
+  margin-top: 40px;
 }
 
 .form-div > p {
   font-size: 1.5em;
 }
 
+.formrow {
+  display: flex;
+  padding: 5px;
+  gap: 5px;
+}
+
 .btn {
-  width: 5vw;
-  height: 2vh;
+  width: 120px;
+  height: 50px;
   border-radius: 8px;
   background-color: #596d48;
+  margin-left: 15px;
+  margin-top: 15px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: .7rem;
+  box-shadow: rgb(50 50 105 / 15%) 0px 2px 5px 0px, rgb(0 0 0 / 5%) 0px 1px 1px 0px;
+  border: none
 }
